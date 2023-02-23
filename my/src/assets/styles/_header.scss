@@ -1,0 +1,29 @@
+.Header-bloc{
+    display:flex;
+    border-bottom:1px solid black;
+    align-items: center;
+    padding: 0px 90px;
+    justify-content: space-between;
+    img{
+        width:10%;
+    }
+    ul{
+        display:flex;
+        list-style:none;
+        padding-left: 0px;
+    }
+    li{
+        padding-left:175px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        transition:all .2s ease-out;
+        color:pink;
+        cursor:pointer;
+    }
+}
+

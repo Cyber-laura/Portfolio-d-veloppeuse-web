@@ -1,0 +1,39 @@
+h1{
+    text-align:center;
+    font-size:40px;
+}
+.welcome-div{
+    display:flex;
+    align-items:center;
+    img{
+        border-radius:100%;
+        width:25%;
+        margin:20px;
+    }
+}
+.welcome-text{
+    margin: 10px 20px;
+    text-align: justify;
+}
+.parcours_div{
+    background-color: aqua;
+    background-color: aqua;
+    width: 95%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+.parcours_div::before{
+    background: pink;
+    width: 2px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+}
+.parcours_description{
+    border:solid 2px red;
+    width:40%;
+    background-color: beige;
+}
