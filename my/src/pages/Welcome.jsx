@@ -1,5 +1,6 @@
 import portrait from '../assets/portrait-laura.png'
 import LinkProjets from '../components/LinkProjets'
+import Bannière from '../components/Bannière';
 
 import '../assets/styles/_welcome.scss'
 
@@ -7,6 +8,7 @@ import React from "react";
 import { faCode, faFutbol, faMugSaucer, faGraduationCap, faFolderOpen, faMessage } from "@fortawesome/free-solid-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 function Home() {
     function handleScroll() {
@@ -34,8 +36,11 @@ function Home() {
 
     return (
         <>
+            <section>
+                <Bannière></Bannière>
+            </section>
             <section id='Welcome'>
-                <h1>Bienvenue</h1>
+                <h1>Mon parcours</h1>
                 <div className="welcome-div">
                     <img src={portrait} alt='Profil' />
                     <p className="welcome-text">Je suis intégratrice, développeuse junior passionnée, motivée et déterminée, récemment diplômée d'une formation en informatique.<br />
@@ -46,7 +51,6 @@ function Home() {
                 </div>
             </section>
             <section id="Parcours">
-                <h1>Mon parcours</h1>
                 <div className="parcours_container">
                     <div className="parcours_div">
                         <span className="parcours_icons"><FontAwesomeIcon icon={faCode} title="Coding icon" /></span>

@@ -1,0 +1,59 @@
+.bg-bannière-text{
+    margin: auto;
+    background: white;
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    border-radius:10px;
+    h1{
+        margin:40px;
+    }
+    p{
+        text-align: center;
+    }
+}
+.bg_bannière_button{
+    display:flex;
+    justify-content: center;
+    margin:40px;
+    button{
+        width: 160px;
+        height: 50px;
+        cursor: pointer;
+        border: 1px solid #c1876f;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px #80808085;
+        overflow: hidden;
+        position: relative;
+        z-index:0;
+        color:#560d20;
+    }
+    button::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50px;
+        height: 100%;
+        width: 100%;
+        background-color: #c1876f;
+        border-radius: 50% 50% 0 0;
+        transition: all .5s;
+        z-index:-1;
+        
+    }
+    button:hover::after{
+        overflow: visible;
+        top:0;
+        border-radius: 0;
+    }
+    span{
+        font-family: "Comfortaa", sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+    }
+    button:hover{
+        color:white;
+    }
+}

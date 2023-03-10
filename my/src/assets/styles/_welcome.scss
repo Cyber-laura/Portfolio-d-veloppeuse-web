@@ -2,7 +2,7 @@ h1{
     text-align:center;
     font-size:40px;
     color:#c1876f;
-    margin-bottom: 150px;
+    margin: 90px;
 
 }
 h2{
@@ -14,9 +14,11 @@ h3{
     margin:0;
     color:#c1876f;
 }
+
 .welcome-div{
     display:flex;
     align-items:center;
+    margin-bottom:100px;
     img{
         border-radius:100%;
         width:25%;
