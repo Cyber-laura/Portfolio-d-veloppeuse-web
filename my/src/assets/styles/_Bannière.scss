@@ -13,6 +13,15 @@
     p{
         text-align: center;
     }
+    strong, a{
+        font-weight: 700;
+    }
+    a{
+        color:#c1876f;
+    }
+    a:hover{
+        color:#560d20
+    }
 }
 .bg_bannière_button{
     display:flex;

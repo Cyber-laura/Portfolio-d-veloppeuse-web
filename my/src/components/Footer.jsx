@@ -1,12 +1,11 @@
 
-import logo from '../assets/Logo-light.png'
-
 function Footer() {
     return (
-        <footer className='footer'>
-            <img src={logo} alt='logo de kasa'></img>
-            <h2> © 2020 Kasa. All rights reserved </h2>
-        </footer>
+        <div className="footer_div">
+            <footer className='footer_container'>
+                <h2> © 2023. All rights reserved </h2>
+            </footer>
+        </div>
     )
 }
-export default Footer;
+export default Footer

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import image from '../assets/backgroundTest.png'
+import image from '../assets/backgroundTest2.jpg'
 
 import '../assets/styles/_Bannière.scss'
 
@@ -28,10 +28,10 @@ function Bannière() {
             >
                 <div className="bg-bannière-text">
                     <h1>Bienvenue</h1>
-                    <p>Je suis Laura, développeuse web et mobile.</p>
-                    <p>Consultez mon parcours ainsi que les projets que j'ai réalisés.</p>
+                    <p>Je suis Laura, <strong>développeuse web et mobile</strong>.</p>
+                    <p>Consultez <a href='#Parcours'>mon parcours</a> ainsi que <a href='#Projets'> les projets</a> que j'ai réalisés.</p>
                     <div className="bg_bannière_button">
-                        <a href='"'>
+                        <a href='#Contact'>
                             <button>
                                 <span>Contactez-moi !</span>
                             </button>

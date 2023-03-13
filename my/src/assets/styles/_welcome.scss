@@ -194,3 +194,16 @@ h3{
     position: relative;
     box-shadow: 0 0 10px #949291;
 }
+.Projet_ul{
+    list-style-type: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    li{
+        margin:10px;
+        max-width: 500px;
+    }
+    a{
+        text-decoration: none;
+    }
+}

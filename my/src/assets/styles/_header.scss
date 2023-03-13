@@ -4,6 +4,10 @@
     align-items: center;
     padding: 0px 90px;
     justify-content: space-between;
+    position:sticky;
+    z-index:1;
+    top:0;
+    background:#fff;
     img{
         width:10%;
     }

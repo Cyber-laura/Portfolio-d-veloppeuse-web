@@ -1,6 +1,8 @@
-import portrait from '../assets/portrait-laura.png'
-import LinkProjets from '../components/LinkProjets'
+import portrait from '../assets/portrait-laura.png';
+import LinkProjets from '../components/LinkProjets';
 import Bannière from '../components/Bannière';
+import cards from '../data'
+
 
 import '../assets/styles/_welcome.scss'
 
@@ -183,11 +185,22 @@ function Home() {
             </section>
             <section id="Projets">
                 <h1>Projets</h1>
-                <LinkProjets></LinkProjets>
+                <ul className='Projet_ul'>
+                    {cards.map((elem, index) => {
+                        return (
+                            <li key={elem.id}>
+                                <LinkProjets imageURL={cards[index].pictures} title={cards[index].title} id={elem.id} description={cards[index].description} icons={cards[index].icons} buttonText={cards[index].buttonText} /></li>
+                        )
+                    })}
+                </ul>
             </section>
             <section id="Contact">
-                <h1>Contact</h1>
-                <form></form>
+                <h1>Me contacter</h1>
+                <div>
+                    <p>LinedIn</p>
+                    <p>brmd.laura@gmail.com</p>
+                    <p>github</p>
+                </div>
             </section>
         </>
     )
