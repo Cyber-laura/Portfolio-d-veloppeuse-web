@@ -1,11 +1,15 @@
 import logo from '../assets/Logo-light.png'
 
+import { Link, } from 'react-router-dom'
+
 import '../assets/styles/_header.scss'
 
 function Header() {
     return (
         <header className="Header-bloc">
-            <img src={logo} alt='logo de kasa' />
+            <Link to="/">
+                <img src={logo} alt='logo' />
+            </Link>
             <nav>
                 <ul>
                     <li>

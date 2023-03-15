@@ -1,0 +1,99 @@
+
+ul{
+    padding-left:15px;
+    color:#560d20;
+}
+li{
+    margin-left:10px;
+    padding:2px;
+}
+.fiche_projets_container_img{
+    position:relative;
+    overflow: hidden;
+}
+.fiche_projets_img{
+    width: 100%;
+    padding:15%;
+    img{
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        object-position: center;
+    }
+}
+.fiche_projets_container_text{
+    padding:15px 30px;
+}
+.fiche_projets_titre{
+    h1{
+        margin:50px;
+        font-size:35px;
+    }
+    h2{
+        text-align:center;
+        color:#560d20
+    }
+}
+.fiche_projets_mission{
+    h3{
+        font-size:21px;
+    }
+    h4{
+        font-size:18px;
+        color:#c1876f;
+    }
+    p{
+        color:#560d20
+    }
+    a{
+        text-decoration: none;
+    }
+}
+.fiche_projets_technologies{
+    background-color: #80808033;
+    padding:15px;
+}
+.fiche_projets_button{
+    display:flex;
+    justify-content: center;
+    button{
+        width: 190px;
+        height: 50px;
+        cursor: pointer;
+        border: 1px solid #c1876f;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px #80808085;
+        overflow: hidden;
+        position: relative;
+        z-index:0;
+        color:#560d20;
+    }
+    button::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50px;
+        height: 100%;
+        width: 100%;
+        background-color: #c1876f;
+        border-radius: 50% 50% 0 0;
+        transition: all .5s;
+        z-index:-1;
+    }
+    button:hover::after{
+        overflow: visible;
+        top:0;
+        border-radius: 0;
+    }
+    span{
+        font-family: "Comfortaa", sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+    }
+    button:hover{
+        color:white;
+    }
+}

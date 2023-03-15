@@ -38,21 +38,21 @@ function Home() {
 
     return (
         <>
-            <section>
+            <section id="Welcome">
                 <Bannière></Bannière>
             </section>
-            <section id='Welcome'>
+            <section id="Parcours">
                 <h1>Mon parcours</h1>
                 <div className="welcome-div">
                     <img src={portrait} alt='Profil' />
-                    <p className="welcome-text">Je suis intégratrice, développeuse junior passionnée, motivée et déterminée, récemment diplômée d'une formation en informatique.<br />
+                    <p className="welcome-text">Je suis intégratrice, développeuse web et mobile passionnée, motivée et déterminée, récemment diplômée d'une formation en développement web.<br />
                         Avec une forte volonté d'apprendre et de progresser, j'ai acquis des compétences en développement web/mobile et en résolution de problèmes, spécialisée dans les technologies tels que <strong>React, TypeScript, NodeJS, HTML et CSS</strong>.<br />
-                        Grâce à ma curiosité et à ma soif de connaissances, je suis capable de m'adapter rapidement à de nouveaux outils et technologies. <br /> En travaillant avec rigueur et méthode, je suis capable de relever de nouveaux défis et de trouver des solutions innovantes aux problèmes complexes.<br />
+                        Grâce à ma curiosité et à ma soif de connaissances, je suis capable de m'adapter rapidement à de nouveaux outils et technologies. En travaillant avec rigueur et méthode, je suis capable de relever de nouveaux défis et de trouver des solutions innovantes aux problèmes complexes.<br />
                         Je possède également d'excellentes qualités relationnelles. Je suis capable de travailler en équipe, de communiquer efficacement et de m'adapter à différents environnements de travail.<br />
                         Je suis prête à saisir toutes les opportunités qui me seront offertes pour continuer à me perfectionner et à progresser dans ma carrière.</p>
                 </div>
             </section>
-            <section id="Parcours">
+            <section>
                 <div className="parcours_container">
                     <div className="parcours_div">
                         <span className="parcours_icons"><FontAwesomeIcon icon={faCode} title="Coding icon" /></span>
@@ -73,7 +73,7 @@ function Home() {
                                     <li><strong>Création d'une application web</strong> de location immobilière <br /> (NodeJS / ReactJS)</li>
                                 </ul>
                                 <div className="parcours_div_button">
-                                    <a href='"'>
+                                    <a href='#Projets'>
                                         <button>
                                             <span>Voir les projets</span>
                                         </button>

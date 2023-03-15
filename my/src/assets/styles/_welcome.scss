@@ -14,7 +14,12 @@ h3{
     margin:0;
     color:#c1876f;
 }
-
+#Parcours{
+    h1{
+        padding:90px 0 30px 0;
+        margin:0;
+    }
+}
 .welcome-div{
     display:flex;
     align-items:center;
@@ -193,6 +198,12 @@ h3{
     left:60%;
     position: relative;
     box-shadow: 0 0 10px #949291;
+}
+#Projets{
+    h1{
+        padding:90px 0 60px 0;
+        margin:0;
+    }
 }
 .Projet_ul{
     list-style-type: none;
