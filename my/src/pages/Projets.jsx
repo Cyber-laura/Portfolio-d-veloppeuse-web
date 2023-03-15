@@ -50,11 +50,23 @@ function FicheProjets() {
                     </ul>
                     <h3>Consulter le projet</h3>
                     <p>{cardId.Consulter}</p>
-                    <Link to={`/`}>
-                        <div className="fiche_projets_button">
+                    <ul>
+                        <ul>
+                            {cardId.lienprojet.map((element, index) => {
+                                return (
+                                    <li key={index}>
+                                        <Link to={element}>{cardId.descriptionlienprojet[index]}</Link>
+                                    </li>
+                                );
+                            })}
+                        </ul>
+                    </ul>
+                    <div className="fiche_projets_button">
+                        <Link to={`/`}>
                             <button><span>Retour aux projets</span></button>
-                        </div>
-                    </Link>
+                        </Link>
+                    </div>
+
                 </div>
 
             </section>
