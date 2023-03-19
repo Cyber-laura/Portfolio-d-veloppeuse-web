@@ -56,9 +56,31 @@ li{
     background-color: #80808033;
     padding:15px;
 }
+.fiche_projets_button_retour{
+    list-style: none;
+    padding-left:0;
+    li{
+        margin-left:0;
+        font-weight: 700;
+    }
+    li::before{
+        content: "🔗";
+        padding-right: 5px;
+    }
+    a{
+        color:#c1876f;
+        border-bottom: 2px solid #c1876f;
+    }
+    a:hover{
+        transition: all 0.2s ease-out;
+        border-bottom: 2px solid #560d20;
+        color: #560d20;
+    }
+}
 .fiche_projets_button{
     display:flex;
     justify-content: center;
+    padding:35px;
     button{
         width: 190px;
         height: 50px;

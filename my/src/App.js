@@ -1,6 +1,5 @@
 import Projets from './pages/Projets';
 import Welcome from './pages/Welcome';
-// import Error from './pages/Error'
 
 import {Routes, Route} from "react-router-dom";
 
@@ -10,7 +9,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Welcome />} />
           <Route path="/card/:id" element={ <Projets /> }/>
-          {/* <Route path="*" element={<Error />}/> */}
         </Routes>
     </div>
   );

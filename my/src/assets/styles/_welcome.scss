@@ -1,3 +1,4 @@
+
 h1{
     text-align:center;
     font-size:40px;
@@ -217,4 +218,11 @@ h3{
     a{
         text-decoration: none;
     }
+}
+
+.contact_container-composant{
+    padding:10px;
+    background-image: url('../backgroundContact.jpg');
+    background-attachment: fixed;
+    height: 560px;
 }

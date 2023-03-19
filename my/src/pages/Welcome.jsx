@@ -1,6 +1,7 @@
 import portrait from '../assets/portrait-laura.png';
 import LinkProjets from '../components/LinkProjets';
 import Bannière from '../components/Bannière';
+import FormContact from '../components/Contact'
 import cards from '../data'
 
 
@@ -196,10 +197,8 @@ function Home() {
             </section>
             <section id="Contact">
                 <h1>Me contacter</h1>
-                <div>
-                    <p>LinedIn</p>
-                    <p>brmd.laura@gmail.com</p>
-                    <p>github</p>
+                <div className="contact_container-composant">
+                    <FormContact></FormContact>
                 </div>
             </section>
         </>

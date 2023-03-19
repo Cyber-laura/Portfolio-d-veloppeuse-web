@@ -1,0 +1,23 @@
+.footer_container{
+    padding:30px;
+    border-top: 1px solid #c1876f;
+}
+.footer_svg{
+    text-align:center;
+    a{
+        margin-left:15px
+    }
+    svg{
+        fill:#c1876f;
+    }
+    svg:hover{
+        fill:#560d20
+    }
+}
+.footer_div{
+    text-align:center;
+    font-size:10px;
+    h2{
+        margin:0;
+    }
+}

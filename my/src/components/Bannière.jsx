@@ -23,6 +23,7 @@ function Bannière() {
                 style={{
                     backgroundImage: `url(${image})`,
                     backgroundPosition: `${backgroundPosition.x}% ${backgroundPosition.y}%`,
+                    backgroundAttachment: 'fixed',
                     height: `1000px`,
                 }}
             >
