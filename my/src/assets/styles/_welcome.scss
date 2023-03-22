@@ -1,9 +1,13 @@
 
+
 h1{
     text-align:center;
     font-size:40px;
     color:#c1876f;
     margin: 90px;
+    @media screen and (max-width:820px){
+        font-size:30px;
+    }
 
 }
 h2{
@@ -25,11 +29,15 @@ h3{
     display:flex;
     align-items:center;
     margin-bottom:100px;
+    @media screen and (max-width:820px){
+        flex-direction: column;
+    }
     img{
         border-radius:100%;
         width:25%;
         margin:20px;
         box-shadow: 0 0 10px #949291;
+        border: 1px solid #c1876f;
     }
 }
 .welcome-text{
@@ -66,6 +74,9 @@ h3{
     transform:translateX(0%);
     animation: 600ms ease 0ms 1 normal none running cd-bounce-2;
     opacity:1;
+    @media screen and (max-width: 1170px){
+        margin-left:70px;
+    }
 }
 @keyframes cd-bounce-1{
     0%{
@@ -95,9 +106,17 @@ h3{
     position: absolute;
     margin-left: -18px;
     z-index:1;
+    @media screen and (max-width: 1170px){
+        left: -51px;
+        width: 40px;
+        height: 40px;
+    }
 }
 .parcours_icons.active{
     animation: cd-bounce-1 .6s;
+    @media screen and (max-width: 1170px){
+        animation: cd-bounce-1 .6s;
+    }
 }
 .parcours_date{
     left: 53%;
@@ -114,6 +133,9 @@ h3{
     top: 0;
     left: 50%;
     height: 100%;
+    @media screen and (max-width: 1170px){
+        left:-50px;
+    }
 }
 .parcours_description{
     border:solid 2px #c1876f;
@@ -122,6 +144,9 @@ h3{
     padding: 15px;
     border-radius:15px;
     box-shadow: 0 0 10px #949291;
+    @media screen and (max-width: 1170px){
+        width: 100%;
+    }
 }
 .parcours_div_skills{
     color:#560d20;
@@ -174,6 +199,11 @@ h3{
     border-color: transparent transparent transparent #c1876f;
     position: absolute;
     left: 40%;
+    @media screen and (max-width: 1170px){
+        right:100%;
+        rotate: 180deg;
+        left:auto;
+    }
 }
 .parcours_fleche_left{
     border-style: solid;
@@ -199,11 +229,19 @@ h3{
     left:60%;
     position: relative;
     box-shadow: 0 0 10px #949291;
+    @media screen and (max-width: 1170px){
+        width: 100%;
+        margin:0;
+        left:0
+    }
 }
 #Projets{
     h1{
         padding:90px 0 60px 0;
         margin:0;
+        @media screen and (max-width:820px){
+            padding:30px
+        }
     }
 }
 .Projet_ul{
@@ -219,10 +257,14 @@ h3{
         text-decoration: none;
     }
 }
-
-.contact_container-composant{
-    padding:10px;
+#Contact{
     background-image: url('../backgroundContact.jpg');
     background-attachment: fixed;
-    height: 560px;
+    h1{
+        margin:0;
+        padding-top:90px
+    }
+}
+.contact_container-composant{
+    padding:10px;
 }
