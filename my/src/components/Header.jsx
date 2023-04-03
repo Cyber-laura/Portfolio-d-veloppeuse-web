@@ -27,16 +27,16 @@ function Header() {
             <nav className={`menu-list ${isOpen ? "open" : ""}`}>
                 <ul>
                     <li>
-                        <a href='#Welcome'>Bienvenue</a>
+                        <a href='/#Welcome'>Bienvenue</a>
                     </li>
                     <li>
-                        <a href='#Parcours'>Parcours</a>
+                        <a href='/#Parcours'>Parcours</a>
                     </li>
                     <li>
-                        <a href='#Projets'>Projets</a>
+                        <a href='/#Projets'>Projets</a>
                     </li>
                     <li>
-                        <a href='#Contact'>Contact</a>
+                        <a href='/#Contact'>Contact</a>
                     </li>
                 </ul>
             </nav>

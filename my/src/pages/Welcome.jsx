@@ -47,7 +47,7 @@ function Home() {
                 <div className="welcome-div">
                     <img src={portrait} alt='Profil' />
                     <p className="welcome-text">Je suis intégratrice, développeuse web et mobile passionnée, motivée et déterminée, récemment diplômée d'une formation en développement web.<br />
-                        Avec une forte volonté d'apprendre et de progresser, j'ai acquis des compétences en développement web/mobile et en résolution de problèmes, spécialisée dans les technologies tels que <strong>React, TypeScript, NodeJS, HTML et CSS</strong>.<br />
+                        Avec une forte volonté d'apprendre et de progresser, j'ai acquis des compétences en développement informatique et en résolution de problèmes, spécialisée dans les technologies tels que <strong>React, TypeScript, NodeJS, HTML et CSS</strong>.<br />
                         Grâce à ma curiosité et à ma soif de connaissances, je suis capable de m'adapter rapidement à de nouveaux outils et technologies. En travaillant avec rigueur et méthode, je suis capable de relever de nouveaux défis et de trouver des solutions innovantes aux problèmes complexes.<br />
                         Je possède également d'excellentes qualités relationnelles. Je suis capable de travailler en équipe, de communiquer efficacement et de m'adapter à différents environnements de travail.<br />
                         Je suis prête à saisir toutes les opportunités qui me seront offertes pour continuer à me perfectionner et à progresser dans ma carrière.</p>
@@ -85,7 +85,7 @@ function Home() {
                     </div>
                     <div className="parcours_div">
                         <span className="parcours_icons"><FontAwesomeIcon icon={faFutbol} title="football icon" /></span>
-                        <span className="parcours_date_bloc2">2020 - mai 2022</span>
+                        <span className="parcours_date_bloc2">2020 - 2022</span>
                         <div className="parcours_description_bloc2">
                             <div className="parcours_fleche_left"></div>
                             <h2>Assistante boutique</h2>
@@ -124,7 +124,7 @@ function Home() {
                     </div>
                     <div className="parcours_div">
                         <span className="parcours_icons"><FontAwesomeIcon icon={faGraduationCap} title="diplome icon" /></span>
-                        <span className="parcours_date_bloc2">2019</span>
+                        <span className="parcours_date_bloc2">2017 - 2019</span>
                         <div className="parcours_description_bloc2">
                             <div className="parcours_fleche_left"></div>
                             <h2>BTS Gestion de la PME</h2>
@@ -205,3 +205,4 @@ function Home() {
     )
 }
 export default Home;
+

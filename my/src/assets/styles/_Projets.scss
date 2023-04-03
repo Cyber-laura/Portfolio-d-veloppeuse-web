@@ -30,7 +30,7 @@ li{
 .fiche_projets_titre{
     h1{
         margin:50px;
-        font-size:35px;
+        font-size:33px;
     }
     h2{
         text-align:center;
@@ -40,13 +40,16 @@ li{
 .fiche_projets_mission{
     h3{
         font-size:21px;
+        margin-top:35px;
     }
     h4{
         font-size:18px;
         color:#c1876f;
+        margin-top:35px;
     }
     p{
-        color:#560d20
+        color:#560d20;
+        text-align: justify;
     }
     a{
         text-decoration: none;

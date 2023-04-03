@@ -60,7 +60,7 @@ function FicheProjets() {
                         })}
                     </ul>
                     <div className="fiche_projets_button">
-                        <Link to={`/#Projets`}>
+                        <Link to={'/#Projets'}>
                             <button><span>Retour aux projets</span></button>
                         </Link>
                     </div>
